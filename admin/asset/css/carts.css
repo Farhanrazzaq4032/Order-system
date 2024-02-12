@@ -1,0 +1,56 @@
+.addCartList ul {
+    display: flex;
+    width: 40%;
+    gap: 10px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding: 5px 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 9px 9px 12px -12px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 9px 9px 12px -12px rgba(66, 68, 90, 1);
+    box-shadow: 9px 9px 12px -12px rgba(66, 68, 90, 1);
+    margin-bottom: 10px;
+}
+
+.addCartList li {
+    display: inline;
+
+
+}
+
+.addCartList .dh {
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto 0;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.addCartList .d {
+    font-weight: 400;
+
+}
+
+.addCartList img {
+    border-radius: 10px;
+}
+
+.orderBtn {
+    display: block;
+    padding: 20px 30px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 3px solid rgb(236, 230, 233);
+    background-color: #b8dadf;
+    cursor: pointer;
+    color: rgb(180, 61, 112);
+    width: 39%;
+    margin-left: 10px;
+    font-weight: 800;
+}
+
+.orderBtn:hover {
+    border: 3px solid rgb(165, 152, 158);
+
+}

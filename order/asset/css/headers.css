@@ -1,0 +1,36 @@
+
+header{
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 5%;
+    background-color: blue;
+}
+header > li, a, button{
+    text-decoration: none;
+    font-size: 20px;
+    color: beige;
+    padding: 1px;
+}
+.nav_bar .nav_link{
+    list-style: none;
+}
+.nav_link li{
+    display: inline-block;
+    margin: 0% 10px;
+}
+.nav_link li:hover{
+    margin-top: 3px;
+    padding-block: 18px;
+    border-bottom: 3px solid rgb(248, 71, 71);
+    /* transition: 60ms; */
+}
+.nav_link a:hover{
+    color: rgb(248, 71, 71);
+
+}
+ header .logo{
+    margin-right: auto;
+
+}
